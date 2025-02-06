@@ -1,13 +1,16 @@
-.btn-custom {
-    background-color: rgb(162, 162, 162) !important; /* Gris claro */
-    border: 1px solid rgb(255, 255, 255); /* Borde gris */
-    color: rgb(245, 240, 240); /* Texto oscuro */
-    padding: 10px 20px;
-    margin: 5px;
-    font-size: 16px;
-    border-radius: 5px; /* Bordes redondeados */
+.btn-bd-primary {
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: white;
+    --bs-btn-bg: #6f42c1; /* Morado */
+    --bs-btn-border-color: #6f42c1;
+    --bs-btn-hover-color: white;
+    --bs-btn-hover-bg: #5a3796; /* Morado más oscuro */
+    --bs-btn-hover-border-color: #5a3796;
+    --bs-btn-focus-shadow-rgb: 111, 66, 193;
+    --bs-btn-active-color: white;
+    --bs-btn-active-bg: #4b2f7d; /* Aún más oscuro */
+    --bs-btn-active-border-color: #4b2f7d;
 }
 
-.btn-custom:hover {
-    background-color: #a09f9f; /* Un poco más oscuro al pasar el cursor */
-}
+
+
