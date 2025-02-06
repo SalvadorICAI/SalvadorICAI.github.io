@@ -1,7 +1,7 @@
 .btn-custom {
-    background-color: rgb(174, 172, 172) !important; /* Gris claro */
-    border: 1px solid #555; /* Borde gris */
-    color: #333; /* Texto oscuro */
+    background-color: rgb(162, 162, 162) !important; /* Gris claro */
+    border: 1px solid rgb(255, 255, 255); /* Borde gris */
+    color: rgb(245, 240, 240); /* Texto oscuro */
     padding: 10px 20px;
     margin: 5px;
     font-size: 16px;
@@ -9,5 +9,5 @@
 }
 
 .btn-custom:hover {
-    background-color: #e0e0e0; /* Un poco más oscuro al pasar el cursor */
+    background-color: #a09f9f; /* Un poco más oscuro al pasar el cursor */
 }
