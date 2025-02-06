@@ -22,12 +22,39 @@
         <button type="button" class="btn btn-outline-warning" onclick="window.location.href='sin-ideas.html'">¿Sin Ideas?</button>
         <button type="button" class="btn btn-outline-info" onclick="window.location.href='contacto.html'">Contacto</button>
     </div>
-    <div class="card" aria-hidden="true">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title placeholder-glow"></h5>
-          <p class="card-text placeholder-glow"></p>
-          <a class="btn btn-primary disabled placeholder col-6" aria-disabled="true"></a>
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Tarjeta de Contacto -->
+            <div class="col-md-5">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Contacto</h5>
+                        <p class="card-text">📞 +34 689456789</p>
+                        <p class="card-text">📧 ideasintercambio@gmail.com</p>
+                        <a href="#" class="btn btn-primary">Más info</a>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Tarjeta de Mensaje -->
+            <div class="col-md-7">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Envíanos un mensaje</h5>
+                        <form>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Tu correo electrónico</label>
+                                <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensaje" class="form-label">Tu mensaje</label>
+                                <textarea class="form-control" id="mensaje" rows="3" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-success">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
