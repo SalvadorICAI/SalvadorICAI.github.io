@@ -29,7 +29,7 @@ h1 {
     font-size: 80px;
 }
 .carousel {
-    max-width: 600px;  /* Ancho máximo del carrusel */
+    max-width: 800px;  /* Ancho máximo del carrusel */
     max-height: 300; /* Alto máximo del carrusel */
     margin: auto; /* Centrar el carrusel */
 }
