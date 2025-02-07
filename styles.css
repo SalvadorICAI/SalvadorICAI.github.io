@@ -28,5 +28,20 @@ h1 {
     font-family: 'Bungee Shade';
     font-size: 80px;
 }
+.carousel {
+    max-width: 600px;  /* Ancho máximo del carrusel */
+    max-height: 300px; /* Alto máximo del carrusel */
+    margin: auto; /* Centrar el carrusel */
+}
+  
+.carousel-inner {
+    max-height: 300px; /* Limita la altura interna del carrusel */
+}
+  
+.carousel-item img {
+    max-height: 300px; /* Limita la altura de las imágenes */
+    object-fit: cover; /* Asegura que la imagen cubra el espacio sin distorsionarse */
+}
+  
 
 
